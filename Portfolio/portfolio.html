@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>Yehya Hijazi Personal Website</title>
+</head>
+<body>
+  
+  <!--------- Home Section ----------->
+  
+    <section class="container" id="hm">
+      <input type="checkbox" id="check">
+      <header>
+          <h2 class="logo">Portfo<span>lio</span></h2>
+          <ul>
+              <li><a href="#hm" onclick="closeMenu()">Home</a></li>
+              <li><a href="#abt" onclick="closeMenu()">About</a></li>
+              <li><a href="#edu" onclick="closeMenu()">Education</a></li>
+              <li><a href="#skl" onclick="closeMenu()">Skills</a></li>
+              <li><a href="#cnt" onclick="closeMenu()">Contact Us</a></li>
+          </ul>
+          <label for="check">
+              <i class="fas fa-bars menu-btn"></i>
+              <i class="fas fa-times close-btn"></i>
+          </label>
+      </header>
+  
+      <script>
+          function closeMenu() {
+              // Close the menu by unchecking the checkbox
+              var checkbox = document.getElementById("check");
+              if (checkbox.checked) {
+                  checkbox.checked = false;
+              }
+          }
+      </script>
+ 
+    <div class="content">
+        <div class="text">
+            <h4>Hello, my name is</h4>
+            <h1>Yehya <span>Hijazi</span></h1>
+            <h3>Iam a Web Developer</h3>
+            <a href="file:///C:/Users/HP/Desktop/new%20cv/yehya%20Hijazi%20-%20Resume.pdf"class="cv" target="_blank">Download CV</a>
+
+            <div class="social">
+              <a href="https://www.facebook.com/yehya.hijazi.39?mibextid=ZbWKwL" target="_blank"><img src="icons/facebook_icon-icons.com_59205.png"></a>
+              <a href="https://instagram.com/yehyaa70?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="icons/3721672-instagram_108066.png"></a>
+              <a href="https://twitter.com/Yehyaa70?t=vyXqrWZu0ZuCvKS2rM90QA&s=09" target="_blank"><img src="icons/1491579542-yumminkysocialmedia22_83078.png"></a>
+              <a href="https://www.linkedin.com/in/yehya-hijazi-823b4a23a" target="_blank"><img src="icons/linkedin_icon-icons.com_65929.png"></a>
+            </div>
+        </div>
+        <div class="img"><img src="image2.png"></div>
+    </div>
+  </section>
+
+<!--------------About section ------------->
+
+  <section class="about" id="abt">
+    <div class="main">
+    <div class="about-text">
+        <h2>About me</h2>
+        <h5>Web <span>Developer</span></h5>
+        <p>Junior Web developer pursuing a master'spment. - API development using plain PHP - Great Data
+            Structures manipulation in Java. Strong academic knowledge in computing fields.
+            Master's degree in Business Computer. Earned bachelor’s degree in Management Information System with
+            appreciation “Good”. Proven track recor degree looking for more challenges in my field to develop
+            my skills and knowledge. Due to my "fresh graduate" status, little is there to show in terms of huge
+            experience records, but my will to grow constantly kept pushing me out of my comfort zone, which lead
+            me to have a: - Experience in Web Develod of quick learning and teaching abilities, as well as excellent
+            communication skills.</p>
+            
+            <a href="https://wa.me/+96179114801" target="_blank"><button type="button">Let's Talk</button></a>
+    </div>
+    <img src="https://blog.thefirehoseproject.com/posts/wp-content/uploads/2017/09/blake-connally-373084-1400x933.jpg">
+    </div>
+  </section>
+
+  <!--------- Education Section ------------>
+
+<section class="education" id="edu">
+  <h1 class="heading">My Eduaction</h1>
+  <div class="box-container">
+    <div class="boox">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2023-present</span>
+      <h3>Master Two in Business Computer</h3>
+      <p>Lebanese University (LU) </p>
+      <div class="viewcert"><a href="#edu" class="btn">View Certification</a></div>
+    </div>
+    <div class="boox">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2022</span>
+      <h3>Master One in Business Computer</h3>
+      <p>Lebanese University (LU) </p>
+      <div class="viewcert"><a href="file:///C:/Users/HP/Desktop/Degree%203.pdf" target="_blank" class="btn">View Certification</a></div>
+    </div>
+    <div class="boox">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2021</span>
+      <h3>Bacholar Degree in Management Information System</h3>
+      <p>Lebanese University (LU) </p>
+      <div class="viewcert"><a href="file:///C:/Users/HP/Desktop/Degree%202.pdf" target="_blank" class="btn">View Certification</a></div>
+    </div>   
+    <div class="boox">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2018</span>
+      <h3>Lebanese Baccalaureate in Sociology and Economics</h3>
+      <p>Sarafand High School</p>
+      <div class="viewcert"><a href="file:///C:/Users/HP/Desktop/Degree%201.pdf" target="_blank" class="btn">View Certification</a></div>
+    </div>
+  </div>
+</section>
+
+  <!----------- Skills section  ------------>
+
+  <section class="skills" id="skl">
+    <h3>My Skills</h3>
+    <br>
+    <br>
+    
+    <div class="icons">
+      <a href="#"><img src="icons/html_original_wordmark_logo_icon_146478.png"><p>HTML</p></a>
+      <a href="#"><img src="icons/file_type_css_icon_130661.png"><p>CSS</p></a>
+      <a href="#"><img src="icons/1200px-Javascript-shield.svg.png"><p>JavaScript</p></a>
+      <a href="#"><img src="icons/java_original_wordmark_logo_icon_146459.png"><p>Java</p></a>
+      <a href="#"><img src="icons/C.jpg"><p>C</p></a>
+
+    </div>
+    <div class="icons">
+      <a href="#"><img src="icons/uml.png"><p>UML</p></a>
+      <a href="#"><img src="icons/Microsoft office.png"><p>Microsoft Office</p></a>
+      <a href="#"><img src="icons/phpmyadmin_logo_icon_168906.png"><p>phpmyadmin</p></a>
+      <a href="#"><img src="icons/mysql_original_wordmark_logo_icon_146417.png"><p>MySQL</p></a>
+      <a href="#"><img src="icons/ubuntu_plain_wordmark_logo_icon_146632.png"><p>Ubuntu</p></a>
+
+    </div>
+    </section>
+
+    <!---------- Contact Me section  ------------>
+
+    <section class="contact" id="cnt">
+      <div class="cntct">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="containerr">
+        <div class="contactinfo">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="txtt">
+                <h3>Address</h3>
+                <p>Sarafand, South Lebanon</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="txtt">
+                  <h3>Phone</h3>
+                  <p>+961-79114801</p>
+                </div>
+            </div>
+               <div class="box">
+                <div class="icon"><i class="fas fa-envelope"></i></div>
+                  <div class="txtt">
+                    <h3>Email</h3>
+                    <p>yhijazi15@gmail.com</p>
+                  </div>
+                </div>
+          </div>
+          <div class="contactform">
+              <form>
+                  <h2>Send Message</h2>
+                  <div class="inputbox">
+                      <input type="text" name="" required="required">
+                      <span>Full Name</span>
+                  </div>
+                  <div class="inputbox">
+                      <input type="text" name="" required="required">
+                      <span>Email</span>
+                  </div>
+                  <div class="inputbox">
+                      <textarea required="required"></textarea>
+                      <span>Type Your Message...</span>
+                  </div>
+                  <div class="inputbox">
+                      <input type="submit" name="" value="Send">
+                  </div>
+              </form>
+          </div>
+        </div>
+     </section>
+</body>
+</html>
